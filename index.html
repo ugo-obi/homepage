@@ -11,102 +11,143 @@
 </head>
 <body>
 
-  <header>
-    <div class="logo">Ugo Obi</div>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="intro">
+    <div class="intro-photo">
+      <img src="assets/images/profile.jpg" alt="Photo of Ugo Obi">
+      <h1>Ugo Obi</h1>
+    </div>
+    <div class="intro-text">
+      <h2>About me</h2>
+      <p>
+        A short paragraph about who you are, your background, and what got
+        you into web development.
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/ugo-obi" target="_blank">
+          <img src="assets/icons/github.svg" alt="GitHub icon">
+        </a>
+        <a href="#" target="_blank">
+          <img src="assets/icons/linkedin.svg" alt="LinkedIn icon">
+        </a>
+        <a href="#" target="_blank">
+          <img src="assets/icons/x.svg" alt="X icon">
+        </a>
+      </div>
+    </div>
   </header>
 
-    <section class="hero">
-    <div class="hero-text">
-      <h1>Hi, I'm Ugo.</h1>
-      <p>I'm a web developer based in Cyprus, building clean, responsive websites.</p>
-      <a href="#contact" class="btn">Contact Me</a>
+  <section id="projects" class="projects">
+    <h2>My work</h2>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-thumb thumb-1">screenshot of project</div>
+        <div class="project-info">
+          <span>Project name</span>
+          <div class="project-links">
+            <a href="#"><img src="assets/icons/github.svg" alt="Source code"></a>
+            <a href="#"><img src="assets/icons/external-link.svg" alt="Live demo"></a>
+          </div>
+        </div>
+        <p>Short description of the project. Just a couple sentences will do.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb thumb-2">screenshot of project</div>
+        <div class="project-info">
+          <span>Project name</span>
+          <div class="project-links">
+            <a href="#"><img src="assets/icons/github.svg" alt="Source code"></a>
+            <a href="#"><img src="assets/icons/external-link.svg" alt="Live demo"></a>
+          </div>
+        </div>
+        <p>Short description of the project. Just a couple sentences will do.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb thumb-3">screenshot of project</div>
+        <div class="project-info">
+          <span>Project name</span>
+          <div class="project-links">
+            <a href="#"><img src="assets/icons/github.svg" alt="Source code"></a>
+            <a href="#"><img src="assets/icons/external-link.svg" alt="Live demo"></a>
+          </div>
+        </div>
+        <p>Short description of the project. Just a couple sentences will do.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb thumb-4">screenshot of project</div>
+        <div class="project-info">
+          <span>Project name</span>
+          <div class="project-links">
+            <a href="#"><img src="assets/icons/github.svg" alt="Source code"></a>
+            <a href="#"><img src="assets/icons/external-link.svg" alt="Live demo"></a>
+          </div>
+        </div>
+        <p>Short description of the project. Just a couple sentences will do.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb thumb-5">screenshot of project</div>
+        <div class="project-info">
+          <span>Project name</span>
+          <div class="project-links">
+            <a href="#"><img src="assets/icons/github.svg" alt="Source code"></a>
+            <a href="#"><img src="assets/icons/external-link.svg" alt="Live demo"></a>
+          </div>
+        </div>
+        <p>Short description of the project. Just a couple sentences will do.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb thumb-6">screenshot of project</div>
+        <div class="project-info">
+          <span>Project name</span>
+          <div class="project-links">
+            <a href="#"><img src="assets/icons/github.svg" alt="Source code"></a>
+            <a href="#"><img src="assets/icons/external-link.svg" alt="Live demo"></a>
+          </div>
+        </div>
+        <p>Short description of the project. Just a couple sentences will do.</p>
+      </article>
+
     </div>
-    <div class="hero-image">
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-text">
+      <h2>Contact me</h2>
+      <p>Please get in touch if you think our work could be mutually beneficial!</p>
+      <p class="address">1234 Random Road<br>Random Town, California 12345</p>
+      <div class="contact-info">
+        <a href="tel:+1234567890">
+          <img src="assets/icons/phone.svg" alt="Phone icon"> +123 456 7890
+        </a>
+        <a href="mailto:youremail@example.com">
+          <img src="assets/icons/email.svg" alt="Email icon"> youremail@example.com
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/ugo-obi" target="_blank">
+          <img src="assets/icons/github.svg" alt="GitHub icon">
+        </a>
+        <a href="#" target="_blank">
+          <img src="assets/icons/linkedin.svg" alt="LinkedIn icon">
+        </a>
+        <a href="#" target="_blank">
+          <img src="assets/icons/x.svg" alt="X icon">
+        </a>
+      </div>
+    </div>
+    <div class="contact-image">
       <img src="assets/images/profile.jpg" alt="Photo of Ugo Obi">
     </div>
   </section>
 
-     <section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-
-      <article class="project-card">
-        <img src="assets/images/project1.jpg" alt="Screenshot of Project One">
-        <h3>Project One</h3>
-        <p>Short description of what this project does and what you built it with.</p>
-        <div class="project-links">
-          <a href="#">Live Demo</a>
-          <a href="#">Source Code</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <img src="assets/images/project2.jpg" alt="Screenshot of Project Two">
-        <h3>Project Two</h3>
-        <p>Short description of what this project does and what you built it with.</p>
-        <div class="project-links">
-          <a href="#">Live Demo</a>
-          <a href="#">Source Code</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <img src="assets/images/project3.jpg" alt="Screenshot of Project Three">
-        <h3>Project Three</h3>
-        <p>Short description of what this project does and what you built it with.</p>
-        <div class="project-links">
-          <a href="#">Live Demo</a>
-          <a href="#">Source Code</a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-    <section id="about" class="about">
-    <h2>About Me</h2>
-    <img src="assets/images/profile.jpg" alt="Photo of Ugo Obi" class="about-img">
-    <p>
-      A short paragraph about who you are, your background, and what got you into
-      web development. Keep it to 3-4 sentences — this isn't a full bio, just enough
-      for someone skimming to get a sense of you.
-    </p>
-  </section>
-
-    <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <div class="contact-info">
-      <a href="mailto:youremail@example.com">
-        <img src="assets/icons/email.svg" alt="Email icon"> youremail@example.com
-      </a>
-      <a href="tel:+1234567890">
-        <img src="assets/icons/phone.svg" alt="Phone icon"> +123 456 7890
-      </a>
-    </div>
-    <div class="social-links">
-      <a href="https://github.com/ugo-obi" target="_blank">
-        <img src="assets/icons/github.svg" alt="GitHub icon">
-      </a>
-      <a href="#" target="_blank">
-        <img src="assets/icons/linkedin.svg" alt="LinkedIn icon">
-      </a>
-      <a href="#" target="_blank">
-        <img src="assets/icons/x.svg" alt="X icon">
-      </a>
-    </div>
-  </section>
-
-</body>
-
   <footer>
     <p>&copy; 2026 Ugo Obi. All rights reserved.</p>
   </footer>
-  
+
+</body>
 </html>
